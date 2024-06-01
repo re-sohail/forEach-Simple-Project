@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #f5f5f5;
+    padding: 30px 40px;
+}
+.main > h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 90px;
+    font-weight: 300;
+}
+.team{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 1px solid black;
+    position: relative;
+    cursor: pointer;
+    /* overflow: hidden; */
+}
+.teamName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.team > h1{
+    font-weight: 300;
+}
+.teamName h1{
+    font-weight: 300;
+}
+.teamName h1:nth-child(1){
+    color: silver;
+    font-weight: 300;
+}
+.team .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    opacity: 0;
+    transition: all linear 0.5s;
+}
+
+  
+
+#img{
+    transform: translate(-50%, -50%);
+}
+#img1{
+    transform: translate(-50%, -150px);
+}
+#img2{
+    transform: translate(-50%, -280px);
+}
+#img3{
+    transform: translate(-50%, -420px);
+}
